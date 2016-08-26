@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parser", "Parser", "{49AA16B4-891B-4646-AB98-F7976FC555B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{FEBB7EC1-4091-4310-A6B9-957ABE7A3D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMed.Parsers", "BioMed.Parsers\BioMed.Parsers.csproj", "{2FB1E8AE-4CA0-4D26-AAC4-9A4CB90E6DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMed.Parsers.Tests", "BioMed.Parsers.UnitTests\BioMed.Parsers.Tests.csproj", "{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FB1E8AE-4CA0-4D26-AAC4-9A4CB90E6DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB1E8AE-4CA0-4D26-AAC4-9A4CB90E6DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB1E8AE-4CA0-4D26-AAC4-9A4CB90E6DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB1E8AE-4CA0-4D26-AAC4-9A4CB90E6DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FB1E8AE-4CA0-4D26-AAC4-9A4CB90E6DF7} = {49AA16B4-891B-4646-AB98-F7976FC555B7}
+		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED} = {49AA16B4-891B-4646-AB98-F7976FC555B7}
+	EndGlobalSection
+EndGlobal
