@@ -3,7 +3,5 @@
 ################################################################################
 
 *.xlsx
-/BioMed.Parsers/bin/Debug
-/BioMed.Parsers/obj/Debug
-/BioMed.Parsers.UnitTests/bin/Debug
-/BioMed.Parsers.UnitTests/obj/Debug
+bin/
+obj/

@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMed.Parsers", "BioMed.Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMed.Parsers.Tests", "BioMed.Parsers.UnitTests\BioMed.Parsers.Tests.csproj", "{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMed.Data.Models", "BioMed.Data.Models\BioMed.Data.Models.csproj", "{B2D000A3-2F51-4022-AD13-2EBBF5E0D150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F2734FFC-BBB9-484C-A414-02D373A52154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{00AAD1A3-C5BA-44E7-A025-984F20F7C945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMed.Shared.Enums", "BioMed.Shared.Enums\BioMed.Shared.Enums.csproj", "{2BD4F2DB-1216-4FD1-BCDA-B90313E4339B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +33,14 @@ Global
 		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D000A3-2F51-4022-AD13-2EBBF5E0D150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D000A3-2F51-4022-AD13-2EBBF5E0D150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D000A3-2F51-4022-AD13-2EBBF5E0D150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D000A3-2F51-4022-AD13-2EBBF5E0D150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD4F2DB-1216-4FD1-BCDA-B90313E4339B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD4F2DB-1216-4FD1-BCDA-B90313E4339B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD4F2DB-1216-4FD1-BCDA-B90313E4339B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD4F2DB-1216-4FD1-BCDA-B90313E4339B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2FB1E8AE-4CA0-4D26-AAC4-9A4CB90E6DF7} = {49AA16B4-891B-4646-AB98-F7976FC555B7}
 		{39D40FC9-DF5C-4E65-902A-EB977C33F1ED} = {49AA16B4-891B-4646-AB98-F7976FC555B7}
+		{B2D000A3-2F51-4022-AD13-2EBBF5E0D150} = {F2734FFC-BBB9-484C-A414-02D373A52154}
+		{2BD4F2DB-1216-4FD1-BCDA-B90313E4339B} = {00AAD1A3-C5BA-44E7-A025-984F20F7C945}
 	EndGlobalSection
 EndGlobal

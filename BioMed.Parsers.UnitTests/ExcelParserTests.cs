@@ -24,5 +24,14 @@ namespace BioMed.Parsers.Tests
             if (output == null)
                 Assert.Fail();
         }
+
+        [TestMethod()]
+        public void TabsToListTest()
+        {
+            var excelparserclient = new BioMed.Parsers.ExcelParser(@"C:\BioMed\Patient Monitors - Examples. V1.1.xlsx");
+            var output = excelparserclient.TabsToList();
+            if (output == null)
+                Assert.Fail();
+        }
     }
 }

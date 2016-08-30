@@ -54,6 +54,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BioMed.Data.Models\BioMed.Data.Models.csproj">
+      <Project>{b2d000a3-2f51-4022-ad13-2ebbf5e0d150}</Project>
+      <Name>BioMed.Data.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BioMed.Parsers\BioMed.Parsers.csproj">
       <Project>{2fb1e8ae-4ca0-4d26-aac4-9a4cb90e6df7}</Project>
       <Name>BioMed.Parsers</Name>
